@@ -2,8 +2,8 @@
   "name": "mf-example",
   "version": "1.0.0",
   "scripts": {
-    "start": "concurrently \"cd remote; npm run start\" \"cd host; npm run start\"",
-    "build": "concurrently \"cd remote; npm run build\" \"cd host; npm run build\""
+    "start": "concurrently \"cd remote-fetch-mf; npm run start\" \"cd remote; npm run start\" \"cd host; npm run start\"",
+    "build": "concurrently \"cd remote-fetch-mf; npm run build\" \"cd remote; npm run build\" \"cd host; npm run build\""
   },
   "license": "MIT",
   "author": {
